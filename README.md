@@ -68,7 +68,7 @@ wd = webdriver.Chrome(ChromeDriverManager().install())
 | keras | 2.4.3 |
 
 ## Files in repository
-- stock_price.ipynb: file jupyter notebook của dự án
+- stock_price.ipynb: file Jupyter Notebook của dự án
 - allDailyStockPrice.csv: file csv tổng hợp giá đóng của của các mã cổ phiếu qua các năm
 - chromedriver.exe: file chromedriver dành cho window (cần được thay thế nếu mã nguồn được chạy trên hệ điều hành khác)
 - Folder dailyStockPriceCSV
