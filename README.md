@@ -1,6 +1,10 @@
 # Stock Price Prediction Using LSTM
 Đồ án cuối kỳ môn "Khai thác dữ liệu và khai phá tri thức" <br>
-Thu thập dữ liệu giá cổ phiếu và xây dựng mô hình dự đoán giá cổ phiếu
+Thu thập dữ liệu giá cổ phiếu và xây dựng mô hình dự đoán giá cổ phiếu<br>
+
+**Ghi chú:** <br>
+Dự án được hoàn thành vào 31/05/2022, dữ liệu cũng được thu thập lần cuối vào ngày này.<br>
+Các trang web liên quan đến phần thu thập dữ liệu có thể sẽ khác đi trong tương lai. Do đó, nếu mã nguồn phần thu thập dữ liệu được chạy vào thời điểm khác có thể sẽ xuất hiện một số lỗi không mong muốn.
 
 ## Project Description
 
@@ -24,7 +28,7 @@ Thu thập dữ liệu giá cổ phiếu và xây dựng mô hình dự đoán g
 ### Cài đặt trình duyệt Chrome (nếu chưa có)
 Tải và cài đặt Chrome từ trang chủ: https://www.google.com/chrome/
 
-### Tải Chrome Diver để thu thập dữ liệu
+### Tải Chrome Driver để thu thập dữ liệu
 **Cách 1: Tải chromedriver thủ công**
 <br> Lựa chọn và tải phiên bản Chrome Driver phù hợp tại: https://chromedriver.storage.googleapis.com/index.html?path=100.0.4896.60/
 <br>
@@ -69,7 +73,7 @@ wd = webdriver.Chrome(ChromeDriverManager().install())
 
 ## Files in repository
 - stock_price.ipynb: file Jupyter Notebook của dự án
-- allDailyStockPrice.csv: file csv tổng hợp giá đóng của của các mã cổ phiếu qua các năm
+- allDailyStockPrice.csv: file csv tổng hợp giá đóng cửa (closing price) của các mã cổ phiếu qua các năm
 - chromedriver.exe: file chromedriver dành cho window (cần được thay thế nếu mã nguồn được chạy trên hệ điều hành khác)
 - Folder dailyStockPriceCSV
   - Gồm các file csv chứa dữ liệu giá đóng cửa (closing price) đã thu thập của từng mã cổ phiếu
