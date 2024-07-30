@@ -1,4 +1,7 @@
 # Stock Price Prediction Using LSTM
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/TUT888/StockPricePrediction_LSTM/blob/main/README.md)
+[![vi](https://img.shields.io/badge/lang-vi-red.svg)](https://github.com/TUT888/StockPricePrediction_LSTM/blob/main/README.vi.md)
+
 Thu thập dữ liệu và xây dựng mô hình dự đoán giá cổ phiếu <br>
 Đây là nội dung thuộc một phần của đồ án cuối kỳ môn "Khai thác dữ liệu và khai phá tri thức" <br>
 
@@ -14,15 +17,23 @@ Các trang web liên quan đến phần thu thập dữ liệu có thể sẽ kh
 - Lựa chọn 100 mã cổ phiếu từ HOSE (Ho Chi Minh Stock Exchange): https://quotes.vcbs.com.vn/a/exchange.html
 - Thu thập dữ liệu giá đóng cửa (closing price) của các mã cổ phiếu trong những năm 2020, 2021, 2022
 
+![Data Collection Result](images/datacollection.png)
+
 ### 2. Tiền xử lý dữ liệu (Data Pre-processing)
 - Chuẩn hóa dữ liệu bằng TimeSeriesScalerMeanVariance
 - Vẽ biểu đồ thể hiện giá cổ phiếu qua các năm
+
+![Data Pre-processing Result](images/datapreprocessing.png)
 
 ### 3. Huấn luyện và dự đoán (Train and Predict)
 - Huấn luyện mô hình dự đoán giá của một mã cổ phiếu dựa trên dữ liệu đã thu thập
 - Dự đoán giá cổ phiếu của 4 tháng đầu năm 2022. Dự đoán theo 2 hướng:
   - Sử dụng giá trị của những ngày cuối năm 2021, để dự đoán giá cổ phiếu trong 4 tháng đầu của năm 2022 (có sử dụng những giá trị dự đoán được để dự đoán giá trị của ngày tiếp theo)
+
+     ![Training and Testing - 1](images/traintest1.png)
   - Sử dụng giá trị của những ngày cuối năm 2021 và đầu năm 2022, để dự đoán giá cổ phiếu của từng ngày trong 4 tháng đầu của năm 2022 (sử dụng giá trị sẵn có, để dự đoán giá trị của ngày kế tiếp)
+
+     ![Training and Testing - 2](images/traintest1.png)
 
 ## Installation
 ### Cài đặt trình duyệt Chrome (nếu chưa có)
