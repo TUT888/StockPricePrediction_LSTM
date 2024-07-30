@@ -33,7 +33,7 @@ Các trang web liên quan đến phần thu thập dữ liệu có thể sẽ kh
      ![Training and Testing - 1](images/traintest1.png)
   - Sử dụng giá trị của những ngày cuối năm 2021 và đầu năm 2022, để dự đoán giá cổ phiếu của từng ngày trong 4 tháng đầu của năm 2022 (sử dụng giá trị sẵn có, để dự đoán giá trị của ngày kế tiếp)
 
-     ![Training and Testing - 2](images/traintest1.png)
+     ![Training and Testing - 2](images/traintest2.png)
 
 ## Installation
 ### Cài đặt trình duyệt Chrome (nếu chưa có)
